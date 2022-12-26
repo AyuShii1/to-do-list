@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(17, 1, 1, 0.37);
+}
+
+#heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.container{
+    background-color: lightgray;
+}
+
+.container .top{
+    display: flex;
+    margin-left: 35%;
+}
+.container .top .list-icon{
+   padding-top: 5px;
+   padding-left: 10px;
+   
+}
+
+.delete-icon{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.delete-icon a{
+    color: red;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.content{
+    display: inline-block;
+    max-width: 80%;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.badge{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+.desc{
+    overflow-wrap: break-word;
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "An Express.js app for To-Do List built using EJS as template engine and MongoDB as database. ODM(Object Document Mapper) used for accessing MongoDB is Mongoose. It is a simple To-Do List app(built using Bootstrap4) in which users can add their tasks, set a due date and classify the task based on provided categories. After completing the task, user has the option to delete it too!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vansh Luthra",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.13"
+  }
+}
